@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b6be8089b5c48449b18887a42b90792, type: 3}
+  m_Name: Item_Underwear
+  m_EditorClassIdentifier: 
+  ID: 1
+  Price: 200
+  Sprite: {fileID: 21300000, guid: 216d591b7c43a8041afaf08dc9ca5687, type: 3}
+  ItemType: 2

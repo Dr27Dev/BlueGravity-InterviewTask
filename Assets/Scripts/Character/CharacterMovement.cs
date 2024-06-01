@@ -5,16 +5,16 @@ using UnityEngine;
 public class CharacterMovement : MonoBehaviour
 {
     [SerializeField] private float _movementSpeed;
-
+    [SerializeField] private Animator[] _animators;
+    
     private Rigidbody2D _rb;
     private CharacterInput _characterInput;
-    private Animator _animator;
 
     private void Awake()
     {
         _rb = GetComponent<Rigidbody2D>();
         _characterInput = GetComponent<CharacterInput>();
-        _animator = GetComponent<Animator>();
+        _animators[0] = GetComponent<Animator>();
     }
 
     private void FixedUpdate()
@@ -25,8 +25,14 @@ public class CharacterMovement : MonoBehaviour
 
     private void Update()
     {
-        _animator.SetFloat("Speed", _characterInput.MovementAxis.sqrMagnitude);
-        _animator.SetFloat("Movement X", _characterInput.MovementAxis.x);
-        _animator.SetFloat("Movement Y", _characterInput.MovementAxis.y);
+        foreach (var animator in _animators)
+        {
+            if (animator != null)
+            {
+                animator.SetFloat("Speed", _characterInput.MovementAxis.sqrMagnitude);
+                animator.SetFloat("Movement X", _characterInput.MovementAxis.x);
+                animator.SetFloat("Movement Y", _characterInput.MovementAxis.y);
+            }
+        }
     }
 }
