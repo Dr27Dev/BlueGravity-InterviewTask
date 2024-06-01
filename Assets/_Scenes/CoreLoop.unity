@@ -1207,6 +1207,7 @@ GameObject:
   - component: {fileID: 456669619}
   - component: {fileID: 456669621}
   - component: {fileID: 456669620}
+  - component: {fileID: 456669623}
   m_Layer: 0
   m_Name: CharacterController
   m_TagString: Untagged
@@ -1361,6 +1362,21 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &456669623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 456669616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aae1e467d99ac34eb03f7c85f144ab9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _hat: {fileID: 452194071}
+  _underwear: {fileID: 441759672}
+  _clothes: {fileID: 1874685703}
 --- !u!1001 &490412223
 PrefabInstance:
   m_ObjectHideFlags: 0

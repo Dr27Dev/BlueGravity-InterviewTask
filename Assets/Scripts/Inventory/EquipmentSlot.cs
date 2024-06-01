@@ -11,7 +11,11 @@ public class EquipmentSlot : InventorySlot
     {
         base.Update();
         _slotHint.enabled = IsEmpty;
+        CheckItemStatus();
     }
+
+    private void CheckItemStatus() => CharacterEquipment.Instance.EquipItem(_slotType, !IsEmpty);
+    
     
     public override void OnDrop(PointerEventData eventData)
     {
