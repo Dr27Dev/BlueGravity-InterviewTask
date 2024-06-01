@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -27,10 +26,7 @@ public class EquipmentSlot : InventorySlot
             _equippedItem = null;
             _itemEquipped = false;
         }
-        else if (_itemEquipped)
-        {
-            CharacterEquipment.Instance.EquipItem(_slotType, _equippedItem.ItemInfo, true);
-        }
+        else if (!IsEmpty) _itemEquipped = true;
     }
     
     public override void OnDrop(PointerEventData eventData)
@@ -40,8 +36,13 @@ public class EquipmentSlot : InventorySlot
         {
             if (!IsEmpty) gameObject.GetComponentInChildren<Item>().transform.SetParent(item.ParentAfterDrag);
             item.ParentAfterDrag = transform;
-            _equippedItem = item;
-            _itemEquipped = true;
+            EquipItem(item);
         }
+    }
+
+    public void EquipItem(Item item)
+    {
+        _equippedItem = item;
+        CharacterEquipment.Instance.EquipItem(_slotType, _equippedItem.ItemInfo, true);
     }
 }
