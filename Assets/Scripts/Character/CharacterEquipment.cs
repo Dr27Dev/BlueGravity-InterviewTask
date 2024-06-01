@@ -11,19 +11,27 @@ public class CharacterEquipment : MonoBehaviour
     private void Awake()
     {
         Instance = this;
-        
         _hat.SetActive(false);
         _underwear.SetActive(false);
         _clothes.SetActive(false);
     }
 
-    public void EquipItem(ItemType type, bool equip)
+    public void EquipItem(ItemType type, ItemInfo itemInfo, bool equip)
     {
         switch (type)
         {
-            case ItemType.Hat: _hat.SetActive(equip); break;
-            case ItemType.Underwear: _underwear.SetActive(equip); break;
-            case ItemType.Clothes: _clothes.SetActive(equip); break;
+            case ItemType.Hat: SetItem(ref _hat, itemInfo, equip); break;
+            case ItemType.Underwear: SetItem(ref _underwear, itemInfo, equip); break;
+            case ItemType.Clothes: SetItem(ref _clothes, itemInfo, equip); break;
         }
+    }
+
+    private void SetItem(ref GameObject item, ItemInfo itemInfo, bool equip)
+    {
+        item.SetActive(equip);
+        if (!equip) return;
+
+        item.GetComponent<Animator>().runtimeAnimatorController = itemInfo.AnimatorController;
+        item.GetComponent<SpriteRenderer>().material = itemInfo.Material;
     }
 }

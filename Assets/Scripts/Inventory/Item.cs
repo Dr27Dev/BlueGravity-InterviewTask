@@ -6,14 +6,14 @@ using UnityEngine.UI;
 [ExecuteInEditMode]
 public class Item : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
-    public ItemTemplate ItemInfo;
-    
+    public ItemInfo ItemInfo;
     [HideInInspector] public Transform ParentAfterDrag;
     [SerializeField] Image _image;
 
     private void Awake()
     {
         _image.sprite = ItemInfo.Sprite;
+        _image.material = ItemInfo.Material;
     }
 
     public void OnBeginDrag(PointerEventData eventData)

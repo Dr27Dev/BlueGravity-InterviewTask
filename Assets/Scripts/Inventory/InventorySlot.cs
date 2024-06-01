@@ -7,11 +7,8 @@ public class InventorySlot : MonoBehaviour, IDropHandler
 
     public virtual void OnDrop(PointerEventData eventData)
     {
-        if (IsEmpty)
-        {
-            GameObject dropped = eventData.pointerDrag;
-            Item item = dropped.GetComponent<Item>();
-            item.ParentAfterDrag = transform;
-        }
+        Item item = eventData.pointerDrag.GetComponent<Item>();
+        if (!IsEmpty) gameObject.GetComponentInChildren<Item>().transform.SetParent(item.ParentAfterDrag);
+        item.ParentAfterDrag = transform;
     }
 }
