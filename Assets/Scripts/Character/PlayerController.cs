@@ -1,11 +1,15 @@
+using System;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
     public static PlayerController Instance;
 
+    public CharacterInput Input;
     public CharacterEquipment Equipment;
     public CharacterStats Stats;
+    
+    public GameObject Inventory;
     
     private void Awake()
     {
@@ -14,5 +18,18 @@ public class PlayerController : MonoBehaviour
 
         Equipment = GetComponent<CharacterEquipment>();
         Stats = GetComponent<CharacterStats>();
+        Input = GetComponent<CharacterInput>();
+        
+        Inventory.SetActive(false);
+    }
+
+    private void Start()
+    {
+        Input.Input_Interact += ToggleInventory;
+    }
+
+    private void ToggleInventory()
+    {
+        Inventory.SetActive(!Inventory.activeSelf);
     }
 }

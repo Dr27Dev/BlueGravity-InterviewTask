@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -108,7 +108,28 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Character_Outfit_Idle_Left
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7b585a9a26204449cd115c3c695172
+      internalID: 730614592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +140,71 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Character_Outfit_Idle_Left: 730614592
+      char_a_p1_1out_pfpn_v04_0: 1731099138
+      char_a_p1_1out_pfpn_v04_1: -312046194
+      char_a_p1_1out_pfpn_v04_10: -1402519029
+      char_a_p1_1out_pfpn_v04_11: 1435112278
+      char_a_p1_1out_pfpn_v04_12: 827385963
+      char_a_p1_1out_pfpn_v04_13: -27814188
+      char_a_p1_1out_pfpn_v04_14: 129994942
+      char_a_p1_1out_pfpn_v04_15: 354085975
+      char_a_p1_1out_pfpn_v04_16: 41776550
+      char_a_p1_1out_pfpn_v04_17: 774877794
+      char_a_p1_1out_pfpn_v04_18: 1900070368
+      char_a_p1_1out_pfpn_v04_19: -1047310162
+      char_a_p1_1out_pfpn_v04_2: -758946618
+      char_a_p1_1out_pfpn_v04_20: 1772445196
+      char_a_p1_1out_pfpn_v04_21: 831937776
+      char_a_p1_1out_pfpn_v04_22: -837363354
+      char_a_p1_1out_pfpn_v04_23: -657257651
+      char_a_p1_1out_pfpn_v04_25: 915986626
+      char_a_p1_1out_pfpn_v04_26: 2109606935
+      char_a_p1_1out_pfpn_v04_27: -267016613
+      char_a_p1_1out_pfpn_v04_28: -1505190449
+      char_a_p1_1out_pfpn_v04_29: 1141962904
+      char_a_p1_1out_pfpn_v04_3: 1738724235
+      char_a_p1_1out_pfpn_v04_30: -489244500
+      char_a_p1_1out_pfpn_v04_31: -2043061866
+      char_a_p1_1out_pfpn_v04_32: -326722169
+      char_a_p1_1out_pfpn_v04_33: -1407488014
+      char_a_p1_1out_pfpn_v04_34: -1452534553
+      char_a_p1_1out_pfpn_v04_35: 1625627815
+      char_a_p1_1out_pfpn_v04_36: 113008008
+      char_a_p1_1out_pfpn_v04_37: -1917950041
+      char_a_p1_1out_pfpn_v04_38: 1096211249
+      char_a_p1_1out_pfpn_v04_39: 856268042
+      char_a_p1_1out_pfpn_v04_4: 119819712
+      char_a_p1_1out_pfpn_v04_40: -1981442457
+      char_a_p1_1out_pfpn_v04_41: -377103814
+      char_a_p1_1out_pfpn_v04_42: 1000123718
+      char_a_p1_1out_pfpn_v04_43: -1293589921
+      char_a_p1_1out_pfpn_v04_44: 1043930765
+      char_a_p1_1out_pfpn_v04_45: -1841041538
+      char_a_p1_1out_pfpn_v04_46: 1430138646
+      char_a_p1_1out_pfpn_v04_47: 1372211868
+      char_a_p1_1out_pfpn_v04_48: -1727451536
+      char_a_p1_1out_pfpn_v04_49: -1315717419
+      char_a_p1_1out_pfpn_v04_5: 1614380172
+      char_a_p1_1out_pfpn_v04_50: 567114120
+      char_a_p1_1out_pfpn_v04_51: 2099554212
+      char_a_p1_1out_pfpn_v04_52: -958449971
+      char_a_p1_1out_pfpn_v04_53: 1273141256
+      char_a_p1_1out_pfpn_v04_54: -329913228
+      char_a_p1_1out_pfpn_v04_55: -894433082
+      char_a_p1_1out_pfpn_v04_56: 568493941
+      char_a_p1_1out_pfpn_v04_57: -1178572669
+      char_a_p1_1out_pfpn_v04_58: -382027074
+      char_a_p1_1out_pfpn_v04_59: -673587186
+      char_a_p1_1out_pfpn_v04_6: -1579985256
+      char_a_p1_1out_pfpn_v04_60: 1012078969
+      char_a_p1_1out_pfpn_v04_61: -1494489229
+      char_a_p1_1out_pfpn_v04_62: 609823971
+      char_a_p1_1out_pfpn_v04_63: 2047191912
+      char_a_p1_1out_pfpn_v04_7: 1655968175
+      char_a_p1_1out_pfpn_v04_8: 1038401343
+      char_a_p1_1out_pfpn_v04_9: 521542783
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

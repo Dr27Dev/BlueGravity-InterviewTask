@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -108,7 +108,28 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Hair_Idle_Left
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59962adca38898645ac563280f95ed9e
+      internalID: -880486286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +140,71 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Hair_Idle_Left: -880486286
+      char_a_p1_4har_bob1_v01_0: 2102255581
+      char_a_p1_4har_bob1_v01_1: -507394937
+      char_a_p1_4har_bob1_v01_10: -1999456722
+      char_a_p1_4har_bob1_v01_11: -73417189
+      char_a_p1_4har_bob1_v01_12: -1194858480
+      char_a_p1_4har_bob1_v01_13: -211655601
+      char_a_p1_4har_bob1_v01_14: 436057258
+      char_a_p1_4har_bob1_v01_15: -646637692
+      char_a_p1_4har_bob1_v01_16: -862832032
+      char_a_p1_4har_bob1_v01_17: -1029593903
+      char_a_p1_4har_bob1_v01_18: 1094354142
+      char_a_p1_4har_bob1_v01_19: 756348137
+      char_a_p1_4har_bob1_v01_2: 1810937232
+      char_a_p1_4har_bob1_v01_20: 200964066
+      char_a_p1_4har_bob1_v01_21: 1321768532
+      char_a_p1_4har_bob1_v01_22: 599769671
+      char_a_p1_4har_bob1_v01_23: 1713331191
+      char_a_p1_4har_bob1_v01_25: 116628957
+      char_a_p1_4har_bob1_v01_26: 1334672019
+      char_a_p1_4har_bob1_v01_27: -1484027358
+      char_a_p1_4har_bob1_v01_28: -351837471
+      char_a_p1_4har_bob1_v01_29: 79469424
+      char_a_p1_4har_bob1_v01_3: 1178525776
+      char_a_p1_4har_bob1_v01_30: 1741228060
+      char_a_p1_4har_bob1_v01_31: 855906535
+      char_a_p1_4har_bob1_v01_32: -1604242516
+      char_a_p1_4har_bob1_v01_33: 1534387662
+      char_a_p1_4har_bob1_v01_34: 237634029
+      char_a_p1_4har_bob1_v01_35: 974412305
+      char_a_p1_4har_bob1_v01_36: 48601164
+      char_a_p1_4har_bob1_v01_37: -1035108226
+      char_a_p1_4har_bob1_v01_38: 287079175
+      char_a_p1_4har_bob1_v01_39: 590954161
+      char_a_p1_4har_bob1_v01_4: -1497683240
+      char_a_p1_4har_bob1_v01_40: 1008109236
+      char_a_p1_4har_bob1_v01_41: 1013296682
+      char_a_p1_4har_bob1_v01_42: 223296127
+      char_a_p1_4har_bob1_v01_43: -752217204
+      char_a_p1_4har_bob1_v01_44: -2057438300
+      char_a_p1_4har_bob1_v01_45: -591359649
+      char_a_p1_4har_bob1_v01_46: -1331777739
+      char_a_p1_4har_bob1_v01_47: -1388711692
+      char_a_p1_4har_bob1_v01_48: 152228906
+      char_a_p1_4har_bob1_v01_49: 1010518053
+      char_a_p1_4har_bob1_v01_5: -373013823
+      char_a_p1_4har_bob1_v01_50: -1243354500
+      char_a_p1_4har_bob1_v01_51: 719336969
+      char_a_p1_4har_bob1_v01_52: -1854920655
+      char_a_p1_4har_bob1_v01_53: 1188903702
+      char_a_p1_4har_bob1_v01_54: -944518232
+      char_a_p1_4har_bob1_v01_55: 96464854
+      char_a_p1_4har_bob1_v01_56: -972290189
+      char_a_p1_4har_bob1_v01_57: -1125449555
+      char_a_p1_4har_bob1_v01_58: -1747994447
+      char_a_p1_4har_bob1_v01_59: 1285972413
+      char_a_p1_4har_bob1_v01_6: -741846615
+      char_a_p1_4har_bob1_v01_60: -2144443481
+      char_a_p1_4har_bob1_v01_61: -1822060741
+      char_a_p1_4har_bob1_v01_62: 1725944691
+      char_a_p1_4har_bob1_v01_63: -1918332355
+      char_a_p1_4har_bob1_v01_7: -196097310
+      char_a_p1_4har_bob1_v01_8: -1352983534
+      char_a_p1_4har_bob1_v01_9: 1790959099
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
