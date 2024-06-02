@@ -10,7 +10,9 @@ public class CharacterEquipment : MonoBehaviour
 
     private void Awake()
     {
-        Instance = this;
+        if (Instance == null) Instance = this;
+        else Destroy(gameObject);
+        
         _hat.SetActive(false);
         _underwear.SetActive(false);
         _clothes.SetActive(false);

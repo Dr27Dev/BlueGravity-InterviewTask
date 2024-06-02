@@ -9,6 +9,6 @@ public class CharacterStats : MonoBehaviour
     
     private void Update()
     {
-        _coinsText.text = Coins.ToString();
+        _coinsText.text = Coins.ToString("D3");
     }
 }

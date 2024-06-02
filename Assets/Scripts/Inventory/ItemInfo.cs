@@ -4,7 +4,8 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Item_", menuName = "Inventory Item")]
 public class ItemInfo : ScriptableObject
 {
-    public float Price;
+    public string Name;
+    public int Price;
     public Sprite Sprite;
     public Material Material;
     public AnimatorController AnimatorController;

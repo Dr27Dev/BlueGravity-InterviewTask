@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b6be8089b5c48449b18887a42b90792, type: 3}
   m_Name: 02_Clothes_Green
   m_EditorClassIdentifier: 
+  Name: Green Suit
   Price: 300
   Sprite: {fileID: 21300000, guid: 1e552a3e6b1fcc246a06f4b333539a6a, type: 3}
   Material: {fileID: 2100000, guid: 552ca40fe1eae8c49923de5bf876b2e5, type: 2}
   AnimatorController: {fileID: 9100000, guid: bd74317bf7498914a8c1f0fd52866319, type: 2}
   ItemType: 1
-  ID: 2

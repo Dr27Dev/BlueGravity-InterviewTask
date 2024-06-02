@@ -24,6 +24,7 @@ public class Item : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
 
     public void OnBeginDrag(PointerEventData eventData) // Item picked
     {
+        ItemInfoBox.Instance.IsDraggingItem = true;
         _parentBeforeDrag = transform.parent;
         _parentAfterDrag = transform.parent;
         transform.SetParent(transform.root);
@@ -38,6 +39,7 @@ public class Item : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
 
     public void OnEndDrag(PointerEventData eventData) // Item dropped
     {
+        ItemInfoBox.Instance.IsDraggingItem = false;
         transform.SetParent(_parentAfterDrag);
         _image.raycastTarget = true;
         if (_parentAfterDrag == _parentBeforeDrag) OnDropFailed();

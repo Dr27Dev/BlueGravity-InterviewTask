@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0b6be8089b5c48449b18887a42b90792, type: 3}
-  m_Name: Item_Underwear
+  m_Name: 02_Hat_Yellow
   m_EditorClassIdentifier: 
-  Price: 200
-  Sprite: {fileID: 21300000, guid: 216d591b7c43a8041afaf08dc9ca5687, type: 3}
-  Material: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  AnimatorController: {fileID: 9100000, guid: 6a16193618a12a540922abb52561557d, type: 2}
-  ItemType: 2
+  Name: Yellow Hat
+  Price: 100
+  Sprite: {fileID: 21300000, guid: 3525f33efa5e0b54390a43f46ca3c2b0, type: 3}
+  Material: {fileID: 2100000, guid: 8fcaea6d34ef8054fb6938e434041eb4, type: 2}
+  AnimatorController: {fileID: 9100000, guid: 35c31c69f5e431040bd8b96c5244c130, type: 2}
+  ItemType: 0
