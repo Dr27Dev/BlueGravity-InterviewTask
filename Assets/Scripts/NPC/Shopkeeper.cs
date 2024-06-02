@@ -3,12 +3,9 @@ using UnityEngine;
 
 public class Shopkeeper : MonoBehaviour
 {
-    [SerializeField] private GameObject _shopInventory;
-    
     private bool _playerOnInteractRange;
     private bool _shopOpen;
     private bool _hintHidden;
-    private bool _dialogueHidden;
 
     private void Start()
     {
@@ -17,7 +14,6 @@ public class Shopkeeper : MonoBehaviour
         DOTween.Play("ResetOpenShopHint");
         DOTween.Play("ResetDialogue");
         _hintHidden = true;
-        _dialogueHidden = false;
     }
 
     private void Interact()
@@ -34,14 +30,14 @@ public class Shopkeeper : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (_hintHidden) SwitchHint(true);
-        if (!_dialogueHidden) SwitchDialogue(false);
+        SwitchDialogue(false);
         _playerOnInteractRange = true;
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
         if (!_hintHidden) SwitchHint(false);
-        if (_dialogueHidden) SwitchDialogue(true);
+        if (_hintHidden) SwitchDialogue(true);
         _playerOnInteractRange = false;
         _shopOpen = false;
         PlayerController.Instance.OpenInventory(false);
@@ -63,11 +59,13 @@ public class Shopkeeper : MonoBehaviour
         _hintHidden = !show;
         if (show)
         {
+            DOTween.Complete("HideOpenShopHint");
             DOTween.Restart("ShowOpenShopHint");
             DOTween.Play("ShowOpenShopHint");
         }
         else
         {
+            DOTween.Complete("ShowOpenShopHint");
             DOTween.Restart("HideOpenShopHint");
             DOTween.Play("HideOpenShopHint");
         }
@@ -75,14 +73,15 @@ public class Shopkeeper : MonoBehaviour
     
     private void SwitchDialogue(bool show)
     {
-        _dialogueHidden = !show;
         if (show)
         {
+            DOTween.Complete("HideDialogue");
             DOTween.Restart("ShowDialogue");
             DOTween.Play("ShowDialogue");
         }
         else
         {
+            DOTween.Complete("ShowDialogue");
             DOTween.Restart("HideDialogue");
             DOTween.Play("HideDialogue");
         }
