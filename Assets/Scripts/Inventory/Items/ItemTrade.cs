@@ -1,3 +1,4 @@
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -37,18 +38,27 @@ public class ItemTrade : MonoBehaviour, IDragHandler, IEndDragHandler
 
     private void HandleBuy()
     {
-        if (CheckPlayerCoins(_item.ItemInfo.Price) && _destinationSlot != SlotType.Equipment)
+        if (_destinationSlot != SlotType.Equipment)
         {
-            var targetSlot = _item.ParentAfterDrag.GetComponent<Slot>();
-            if (targetSlot.IsEmpty)
+            if (CheckPlayerCoins(_item.ItemInfo.Price))
             {
-                PlayerController.Instance.Stats.Coins -= _item.ItemInfo.Price;
-                _item.transform.SetParent(_item.ParentAfterDrag);
+                var targetSlot = _item.ParentAfterDrag.GetComponent<Slot>();
+                if (targetSlot.IsEmpty)
+                {
+                    PlayerController.Instance.Stats.Coins -= _item.ItemInfo.Price;
+                    _item.transform.SetParent(_item.ParentAfterDrag);
+                }
+                else
+                {
+                    targetSlot.PreviouslyHeldItem.transform.SetParent(_item.ParentAfterDrag);
+                    _item.transform.SetParent(_item.ParentBeforeDrag);
+                }
             }
             else
             {
-                targetSlot.PreviouslyHeldItem.transform.SetParent(_item.ParentAfterDrag);
                 _item.transform.SetParent(_item.ParentBeforeDrag);
+                DOTween.Restart("ShowAlert");
+                DOTween.Play("ShowAlert");
             }
         }
         else _item.transform.SetParent(_item.ParentBeforeDrag);
