@@ -31,7 +31,12 @@ public class PlayerController : MonoBehaviour
         {
             DOTween.Restart("OpenInventory");
             DOTween.Play("OpenInventory");
+            UI_Audio.Instance.PlaySoundOnce(UI_Clip.MenuOpen, 0.7f);
         }
-        else DOTween.PlayBackwards("OpenInventory");
+        else
+        {
+            DOTween.PlayBackwards("OpenInventory");
+            UI_Audio.Instance.PlaySoundOnce(UI_Clip.MenuClose, 0.2f);
+        }
     }
 }

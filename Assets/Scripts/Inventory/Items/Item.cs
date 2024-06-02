@@ -27,6 +27,7 @@ public class Item : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
         transform.SetParent(transform.root);
         transform.SetAsLastSibling();
         _image.raycastTarget = false;
+        UI_Audio.Instance.PlaySoundOnce(UI_Clip.ItemPickup, 0.7f);
     }
 
     public void OnDrag(PointerEventData eventData) // Item being dragged
@@ -42,6 +43,7 @@ public class Item : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
         transform.SetParent(ParentAfterDrag);
         _image.raycastTarget = true;
         if (ParentAfterDrag == ParentBeforeDrag) OnDropFailed();
+        UI_Audio.Instance.PlaySoundOnce(UI_Clip.ItemDrop, 0.7f);
     }
 
     private void OnDropFailed() // This is used when item was not unequipped correctly
