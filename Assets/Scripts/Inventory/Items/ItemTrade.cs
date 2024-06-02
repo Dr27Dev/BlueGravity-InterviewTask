@@ -1,4 +1,3 @@
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -13,6 +12,7 @@ public class ItemTrade : MonoBehaviour, IDragHandler, IEndDragHandler
     public void OnDrag(PointerEventData eventData)
     {
         _originSlot = _item.ParentBeforeDrag.GetComponent<Slot>().SlotType;
+        if (_originSlot == SlotType.Shop) PlayerController.Instance.Equipment.SetTradingBlock(true);
     }
     
     public void OnEndDrag(PointerEventData eventData)
@@ -20,6 +20,7 @@ public class ItemTrade : MonoBehaviour, IDragHandler, IEndDragHandler
         _destinationSlot = _item.ParentAfterDrag.GetComponent<Slot>().SlotType;
         if (_originSlot != _destinationSlot) 
             TradeItem();
+        if (_originSlot == SlotType.Shop) PlayerController.Instance.Equipment.SetTradingBlock(false);
     }
 
     private void TradeItem()
@@ -34,21 +35,13 @@ public class ItemTrade : MonoBehaviour, IDragHandler, IEndDragHandler
 
     private void HandleBuy()
     {
-        if (CheckPlayerCoins(_item.ItemInfo.Price))
+        if (CheckPlayerCoins(_item.ItemInfo.Price) && _destinationSlot != SlotType.Equipment)
         {
             var targetSlot = _item.ParentAfterDrag.GetComponent<Slot>();
             if (targetSlot.IsEmpty)
             {
                 PlayerController.Instance.Stats.Coins -= _item.ItemInfo.Price;
                 _item.transform.SetParent(_item.ParentAfterDrag);
-            }
-            else if (_destinationSlot == SlotType.Equipment)
-            {
-                PlayerController.Instance.Stats.Coins -= _item.ItemInfo.Price;
-                
-                var inventoryParent = PlayerController.Instance.Inventory.GetEmptySlot().transform;
-                _item.transform.SetParent(inventoryParent);
-                //_item.ParentAfterDrag.GetChild(0).SetParent(inventoryParent);
             }
         }
         else _item.transform.SetParent(_item.ParentBeforeDrag);
