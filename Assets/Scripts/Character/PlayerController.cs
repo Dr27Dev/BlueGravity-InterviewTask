@@ -6,7 +6,6 @@ public class PlayerController : MonoBehaviour
 
     public CharacterEquipment Equipment;
     public CharacterStats Stats;
-    public Inventory Inventory;
     
     private void Awake()
     {

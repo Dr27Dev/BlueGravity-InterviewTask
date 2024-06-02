@@ -11,12 +11,14 @@ public class ItemTrade : MonoBehaviour, IDragHandler, IEndDragHandler
 
     public void OnDrag(PointerEventData eventData)
     {
+        if (eventData.button != PointerEventData.InputButton.Left) return;
         _originSlot = _item.ParentBeforeDrag.GetComponent<Slot>().SlotType;
         if (_originSlot == SlotType.Shop) PlayerController.Instance.Equipment.SetTradingBlock(true);
     }
     
     public void OnEndDrag(PointerEventData eventData)
     {
+        if (eventData.button != PointerEventData.InputButton.Left) return;
         _destinationSlot = _item.ParentAfterDrag.GetComponent<Slot>().SlotType;
         if (_originSlot != _destinationSlot) 
             TradeItem();

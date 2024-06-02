@@ -20,6 +20,7 @@ public class Item : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
 
     public void OnBeginDrag(PointerEventData eventData) // Item picked
     {
+        if (eventData.button != PointerEventData.InputButton.Left) return;
         ItemInfoBox.Instance.IsDraggingItem = true;
         ParentBeforeDrag = transform.parent;
         ParentAfterDrag = transform.parent;
@@ -30,11 +31,13 @@ public class Item : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
 
     public void OnDrag(PointerEventData eventData) // Item being dragged
     {
-        transform.position = Input.mousePosition;
+        if (eventData.button == PointerEventData.InputButton.Left) 
+            transform.position = Input.mousePosition;
     }
 
     public void OnEndDrag(PointerEventData eventData) // Item dropped
     {
+        if (eventData.button != PointerEventData.InputButton.Left) return;
         ItemInfoBox.Instance.IsDraggingItem = false;
         transform.SetParent(ParentAfterDrag);
         _image.raycastTarget = true;
