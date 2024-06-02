@@ -43,16 +43,28 @@ public class ItemTrade : MonoBehaviour, IDragHandler, IEndDragHandler
                 PlayerController.Instance.Stats.Coins -= _item.ItemInfo.Price;
                 _item.transform.SetParent(_item.ParentAfterDrag);
             }
+            else
+            {
+                targetSlot.PreviouslyHeldItem.transform.SetParent(_item.ParentAfterDrag);
+                _item.transform.SetParent(_item.ParentBeforeDrag);
+            }
         }
         else _item.transform.SetParent(_item.ParentBeforeDrag);
     }
 
     private void HandleSell()
     {
-        if (_destinationSlot == SlotType.Shop)
+        if (_destinationSlot != SlotType.Shop) return;
+        var targetSlot = _item.ParentAfterDrag.GetComponent<Slot>();
+        if (targetSlot.IsEmpty)
         {
             PlayerController.Instance.Stats.Coins += _item.ItemInfo.Price;
             _item.transform.SetParent(_item.ParentAfterDrag);
+        }
+        else
+        {
+            targetSlot.PreviouslyHeldItem.transform.SetParent(_item.ParentAfterDrag);
+            _item.transform.SetParent(_item.ParentBeforeDrag);
         }
     }
     
