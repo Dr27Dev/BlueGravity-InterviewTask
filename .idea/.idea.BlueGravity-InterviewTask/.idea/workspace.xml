@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1b2d9afd-45f8-4955-93ca-e23b4f0931c7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BlueGravity-InterviewTask/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BlueGravity-InterviewTask/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BlueGravity-InterviewTask/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj.DotSettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Character.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Character/Character_Base.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Character/Character_Base.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Character/Character_Base_Idle_Down.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Character/Character_Base_Idle_Down.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Character/Character_Base_Idle_Up.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Character/Character_Base_Idle_Up.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Character/Character_Base_Walk_Down.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Character/Character_Base_Walk_Down.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Character/Character_Base_Walk_Left.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Character/Character_Base_Walk_Left.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Character/Character_Base_Walk_Right.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Character/Character_Base_Walk_Right.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Character/Character_Base_Walk_Up.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Character/Character_Base_Walk_Up.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Clothes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Clothes/Clothes.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Clothes/Clothes.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Clothes/Clothes_Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Clothes/Clothes_Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Clothes/Clothes_Walk_Down.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Clothes/Clothes_Walk_Down.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Clothes/Clothes_Walk_Left.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Clothes/Clothes_Walk_Left.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Clothes/Clothes_Walk_Right.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Clothes/Clothes_Walk_Right.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Clothes/Clothes_Walk_Up.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Clothes/Clothes_Walk_Up.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Hat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Hat/Hat.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Hat/Hat.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Hat/Hat_Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Hat/Hat_Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Hat/Hat_Walk_Down.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Hat/Hat_Walk_Down.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Hat/Hat_Walk_Left.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Hat/Hat_Walk_Left.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Hat/Hat_Walk_Right.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Hat/Hat_Walk_Right.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Hat/Hat_Walk_Up.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Hat/Hat_Walk_Up.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/UnderWear.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/UnderWear/UnderWear.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/UnderWear/UnderWear.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/UnderWear/UnderWear_Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/UnderWear/UnderWear_Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/UnderWear/UnderWear_Walk_Down.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/UnderWear/UnderWear_Walk_Down.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/UnderWear/UnderWear_Walk_Left.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/UnderWear/UnderWear_Walk_Left.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/UnderWear/UnderWear_Walk_Right.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/UnderWear/UnderWear_Walk_Right.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/UnderWear/UnderWear_Walk_Up.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/UnderWear/UnderWear_Walk_Up.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/AudioMixer.mixer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/AudioMixer.mixer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/BGM.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/BGM/Chill Jazz - BGM.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/BGM/Chill Jazz - BGM.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/SFX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/SFX/Grass Footsteps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/SFX/Grass Footsteps/Grass_Footstep_SFX 1.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/SFX/Grass Footsteps/Grass_Footstep_SFX 1.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/SFX/Grass Footsteps/Grass_Footstep_SFX 2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/SFX/Grass Footsteps/Grass_Footstep_SFX 2.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/SFX/Grass Footsteps/Grass_Footstep_SFX 3.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/SFX/Grass Footsteps/Grass_Footstep_SFX 3.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/SFX/Grass Footsteps/Grass_Footstep_SFX 4.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/SFX/Grass Footsteps/Grass_Footstep_SFX 4.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/SFX/Grass Footsteps/Grass_Footstep_SFX 5.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/SFX/Grass Footsteps/Grass_Footstep_SFX 5.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/SFX/Grass Footsteps/Grass_Footstep_SFX 6.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/SFX/Grass Footsteps/Grass_Footstep_SFX 6.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/SFX/UI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/SFX/UI/ItemDrop.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/SFX/UI/ItemDrop.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/SFX/UI/ItemPickup.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/SFX/UI/ItemPickup.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/SFX/UI/MenuClose.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/SFX/UI/MenuClose.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/SFX/UI/MenuOpen.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/SFX/UI/MenuOpen.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Clothes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Clothes/01_Clothes_Red.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Clothes/01_Clothes_Red.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Clothes/02_Clothes_Green.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Clothes/02_Clothes_Green.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Clothes/03_Clothes_Blue.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Clothes/03_Clothes_Blue.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Hats.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Hats/01_Hat_Blue.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Hats/01_Hat_Blue.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Hats/02_Hat_Yellow.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Hats/02_Hat_Yellow.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Hats/03_Hat_Pink.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Hats/03_Hat_Pink.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Underwear.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Underwear/01_Underwear_Purple.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Underwear/01_Underwear_Purple.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Underwear/02_Underwear_Green.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Underwear/02_Underwear_Green.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Underwear/03_Underwear_Blue.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Underwear/03_Underwear_Blue.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/DOTween.XML" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/DOTween.XML.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/DOTween.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/DOTween.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.XML" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.XML.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenMiniIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenMiniIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer_dark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Header.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Header.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleEPOOutline.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleEPOOutline.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/readme.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro Examples.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro Examples/DOTweenAnimation_Advanced.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro Examples/DOTweenAnimation_Advanced.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro Examples/DOTweenAnimation_AdvancedSettings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro Examples/DOTweenAnimation_AdvancedSettings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro Examples/DOTweenAnimation_Basics.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro Examples/DOTweenAnimation_Basics.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro Examples/DOTweenAnimation_BasicsSettings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro Examples/DOTweenAnimation_BasicsSettings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro Examples/DOTweenPath.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro Examples/DOTweenPath.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro Examples/DOTweenPathSettings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro Examples/DOTweenPathSettings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro Examples/Examples Assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro Examples/Examples Assets/dotweenpro_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro Examples/Examples Assets/dotweenpro_logo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/DOTweenDeAudio.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/DOTweenDeAudio.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/DOTweenDeUnityExtended.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/DOTweenDeUnityExtended.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/DOTweenPro.XML" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/DOTweenPro.XML.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/DOTweenPro.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/DOTweenPro.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/DOTweenProShortcuts.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/DOTweenProShortcuts.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTk2d.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTk2d.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/Editor/DOTweenAnimationInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/Editor/DOTweenAnimationInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/Editor/DOTweenPreviewManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/Editor/DOTweenPreviewManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/Editor/DOTweenProEditor.XML" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/Editor/DOTweenProEditor.XML.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/Editor/DOTweenProEditor.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/Editor/DOTweenProEditor.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/readme.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/DemiLib.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/DemiLib.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/DemiLib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/DemiLib.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/DemiEditor.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/DemiEditor.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/DemiEditor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/DemiEditor.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquare.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquare.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha10.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha15.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha25.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha50.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha80.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blueSquare.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blueSquare.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/circle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/circle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/circle_dashedBorderEmpty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/circle_dashedBorderEmpty.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/greenSquare.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/greenSquare.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/grid_bright.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/grid_bright.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/grid_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/grid_dark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alert.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alert.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignB.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignBC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignBC.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignBL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignBL.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignBR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignBR.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCC.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCL.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCR.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignHC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignHC.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignL.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignR.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignT.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignTC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignTC.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignTL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignTL.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignTR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignTR.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignVC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignVC.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_camera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_camera.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_camera_border.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_camera_border.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_cog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_cog.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_cog_border.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_cog_border.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_comment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_comment.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_comment_border.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_comment_border.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_delete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_delete.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_demigiant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_demigiant.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_distributeHAlignT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_distributeHAlignT.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_distributeVAlignL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_distributeVAlignL.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_doing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_doing.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_end.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_end.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_flipV.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_flipV.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_foldout_closed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_foldout_closed.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_foldout_open.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_foldout_open.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_heart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_heart.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_heart_border.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_heart_border.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_light.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_light_border.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_light_border.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_lock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_lock.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_lock_open.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_lock_open.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_nodeArrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_nodeArrow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_ok.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_ok.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_optionsDropdown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_optionsDropdown.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_play.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_play_border.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_play_border.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_skull.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_skull.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_skull_border.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_skull_border.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_star.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_star_border.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_star_border.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_todo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_todo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_ui.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_ui.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_ui_border.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_ui_border.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_visibility.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_visibility.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_visibility_off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_visibility_off.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/orangeSquare.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/orangeSquare.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_atlas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_atlas.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_audio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_audio.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_bundle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_bundle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_cog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_cog.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_cross.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_cross.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_demigiant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_demigiant.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_folder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_folder.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_fonts.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_fonts.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_heart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_heart.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_materials.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_materials.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_models.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_models.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_particles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_particles.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_play.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_prefab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_prefab.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_scripts.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_scripts.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_shaders.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_shaders.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_skull.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_skull.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_star.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_terrains.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_terrains.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_textures.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_textures.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/purpleSquare.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/purpleSquare.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/redSquare.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/redSquare.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorder.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderAlpha15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderAlpha15.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved02_darkBorders.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved02_darkBorders.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedAlpha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedAlpha.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedEmpty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedEmpty.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedEmpty02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedEmpty02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedEmptyThick.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedEmptyThick.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved_darkBorders.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved_darkBorders.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved_darkBordersAlpha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved_darkBordersAlpha.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderThickEmpty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderThickEmpty.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderThickerEmpty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderThickerEmpty.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareCorners03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareCorners03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareCornersEmpty02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareCornersEmpty02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/tileBars_empty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/tileBars_empty.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/tileBars_slanted.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/tileBars_slanted.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/tileBars_slanted_alpha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/tileBars_slanted_alpha.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/tileCheckerboard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/tileCheckerboard.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/transparentSquare.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/transparentSquare.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteDot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteDot.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteDot_darkBorder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteDot_darkBorder.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteDot_whiteBorderAlpha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteDot_whiteBorderAlpha.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquare.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquare.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha10.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha15.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha25.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha50.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha80.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareCurved.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareCurved.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareCurved02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareCurved02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquare_fadeOut_bt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquare_fadeOut_bt.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/yellowSquare.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/yellowSquare.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/readme_DOTweenPro.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/readme_DOTweenPro.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Equipment Slot.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Equipment Slot.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/InventorySlot.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/InventorySlot.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Item.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Item.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character/CharacterAudio.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character/CharacterAudio.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character/CharacterEquipment.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character/CharacterEquipment.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character/CharacterMovement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character/CharacterMovement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character/CharacterStats.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character/CharacterStats.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character/PlayerController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character/PlayerController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Input.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Input/CharacterInput.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Input/CharacterInput.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Input/CustomInput.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Input/CustomInput.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Input/CustomInput.inputactions" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Input/CustomInput.inputactions.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Input/InputHint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Input/InputHint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/Items.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/Items/Item.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/Items/Item.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/Items/ItemInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/Items/ItemInfo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/Items/ItemTrade.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/Items/ItemTrade.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/Slots.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/Slots/EquipmentSlot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/Slots/EquipmentSlot.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/Slots/Slot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/Slots/Slot.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NPC.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NPC/Shopkeeper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NPC/Shopkeeper.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Clothes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Clothes/00_Clothes_Yellow.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Clothes/00_Clothes_Yellow.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Clothes/01_Clothes_Red.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Clothes/01_Clothes_Red.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Clothes/02_Clothes_Green.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Clothes/02_Clothes_Green.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Clothes/03_Clothes_Blue.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Clothes/03_Clothes_Blue.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Hats.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Hats/00_Hat_Grey.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Hats/00_Hat_Grey.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Hats/01_Hat_Blue.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Hats/01_Hat_Blue.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Hats/02_Hat_Yellow.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Hats/02_Hat_Yellow.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Hats/03_Hat_Pink.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Hats/03_Hat_Pink.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Underwear.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Underwear/00_Underwear_White.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Underwear/00_Underwear_White.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Underwear/01_Underwear_Purple.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Underwear/01_Underwear_Purple.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Underwear/02_Underwear_Green.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Underwear/02_Underwear_Green.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Underwear/03_Underwear_Blue.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Underwear/03_Underwear_Blue.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/ItemInfoBox.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/ItemInfoBox.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UI_Audio.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UI_Audio.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/ItemColorChange.shadergraph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/ItemColorChange.shadergraph.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/BaseCharacter_Spritesheet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/BaseCharacter_Spritesheet.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Cloths.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Cloths/Clothes_Spritesheet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Cloths/Clothes_Spritesheet.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Cloths/Hat_Spritesheet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Cloths/Hat_Spritesheet.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Cloths/UnderWear_Spritesheet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Character/Cloths/UnderWear_Spritesheet.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterBase.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterBase/char_a_p1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterBase/char_a_p1/1out.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterBase/char_a_p1/1out/char_a_p1_1out_boxr_v01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterBase/char_a_p1/1out/char_a_p1_1out_boxr_v01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterBase/char_a_p1/1out/char_a_p1_1out_pfpn_v04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterBase/char_a_p1/1out/char_a_p1_1out_pfpn_v04.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterBase/char_a_p1/4har.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterBase/char_a_p1/4har/char_a_p1_4har_bob1_v01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterBase/char_a_p1/4har/char_a_p1_4har_bob1_v01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterBase/char_a_p1/4har/char_a_p1_4har_dap1_v01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterBase/char_a_p1/4har/char_a_p1_4har_dap1_v01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterBase/char_a_p1/5hat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterBase/char_a_p1/5hat/Hat_A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterBase/char_a_p1/5hat/Hat_A.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterBase/guides.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterBase/guides/animations, page 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterBase/guides/animations, page 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterBase/guides/paper doll demonstration.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterBase/guides/paper doll demonstration.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterBase/guides/timing sample gifs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterBase/guides/timing sample gifs/running sample.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterBase/guides/timing sample gifs/running sample.gif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterBase/guides/timing sample gifs/walking sample.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterBase/guides/timing sample gifs/walking sample.gif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterBase/guides/using this base.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterBase/guides/using this base.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterBase/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterBase/readme.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Environment.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Environment/DungeonFrame1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Environment/DungeonFrame1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Environment/DungeonFrame2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Environment/DungeonFrame2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Environment/Miscas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Environment/Miscas.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Environment/Mountains&amp;Platforms.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Environment/Mountains&amp;Platforms.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Fonts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Fonts/pixelmix SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Fonts/pixelmix SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Fonts/pixelmix.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Fonts/pixelmix.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Fonts/pixelmix_bold SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Fonts/pixelmix_bold SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Fonts/pixelmix_bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Fonts/pixelmix_bold.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Coin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Coin.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Flechas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Flechas.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/InventorySlots.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/InventorySlots.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Item_Clothes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Item_Clothes.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Item_Hat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Item_Hat.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Item_Underwear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Item_Underwear.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Mutted.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Mutted.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Unmutted.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Unmutted.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Z_Key.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Z_Key.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Gradient.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Gradient.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Grass.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Grass/s2 Grass 01 Green 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Grass/s2 Grass 01 Green 3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Grass/s2 Grass 01 Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Grass/s2 Grass 01 Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Grass/s2 Grass 01 Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Grass/s2 Grass 01 Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Grass/s2 Grass 01 Snow 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Grass/s2 Grass 01 Snow 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Grass/s2 Grass 01 Snow 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Grass/s2 Grass 01 Snow 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Grass/s2 Grass 01 Snow 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Grass/s2 Grass 01 Snow 3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Grass/s2 Grass 01 White.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Grass/s2 Grass 01 White.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Grass/s2 Grass 02 Green 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Grass/s2 Grass 02 Green 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Grass/s2 Grass 02 Green 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Grass/s2 Grass 02 Green 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Grass/s2 Grass 02 Green 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Grass/s2 Grass 02 Green 3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Grass/s2 Grass 02 White 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Grass/s2 Grass 02 White 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/URP.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/URP/Settings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/URP/Settings/Lit2DSceneTemplate.scenetemplate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/URP/Settings/Lit2DSceneTemplate.scenetemplate.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/URP/Settings/Renderer2D.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/URP/Settings/Renderer2D.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/URP/Settings/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/URP/Settings/Scenes/URP2DSceneTemplate.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/URP/Settings/Scenes/URP2DSceneTemplate.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/URP/Settings/UniversalRP.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/URP/Settings/UniversalRP.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/URP/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/URP/UniversalRenderPipelineGlobalSettings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/CoreLoop.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/CoreLoop.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/CoreLoop.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/CoreLoop/Post Processing Volume.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/CoreLoop/Post Processing Volume.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/AudioManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/BurstAotSettings_StandaloneWindows.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ClusterInputManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/CommonBurstAotSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/MemorySettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/NetworkManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/PresetManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/SceneTemplateSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/VersionControlSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/XRSettings.asset" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/CharacterAudio.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/CharacterEquipment.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/CharacterStats.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Input/CharacterInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Input/InputHint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/Items/ItemTrade.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/Slots/Slot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPC/Shopkeeper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/ItemInfoBox.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UI_Audio.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@14.0.11/Runtime/UniversalRenderPipeline.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2hFsqqq3QTbYylKqXqQdvHArxx6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.scopes&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\osori\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\osori\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\osori\\AppData\\Local\\Symbols\\src&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Builds/BlueGravity-InterviewTask-SimonOsorio\BlueGravity-InterviewTask.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\osori\Documents\Unity Projects\BlueGravity-InterviewTask\Builds\Testing" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.25f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath &quot;C:\Users\osori\Documents\Unity Projects\BlueGravity-InterviewTask&quot; -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\osori\Documents\Unity Projects\BlueGravity-InterviewTask" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.25f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath &quot;C:\Users\osori\Documents\Unity Projects\BlueGravity-InterviewTask&quot; -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\osori\Documents\Unity Projects\BlueGravity-InterviewTask" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1b2d9afd-45f8-4955-93ca-e23b4f0931c7" name="Changes" comment="" />
+      <created>1717201354804</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717201354804</updated>
+      <workItem from="1717201356879" duration="12026000" />
+      <workItem from="1717270360324" duration="8253000" />
+      <workItem from="1717281607617" duration="7273000" />
+      <workItem from="1717292054448" duration="6692000" />
+      <workItem from="1717299275987" duration="21442000" />
+      <workItem from="1717326865240" duration="212000" />
+      <workItem from="1717327088838" duration="813000" />
+      <workItem from="1717352042396" duration="918000" />
+      <workItem from="1717358001537" duration="1266000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
