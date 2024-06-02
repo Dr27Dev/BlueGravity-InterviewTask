@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -28,7 +27,6 @@ public class ItemInfoBox : MonoBehaviour
     {
         _currentItem = null;
         _box.SetActive(false);
-        print(IsDraggingItem);
         if (!IsDraggingItem)
         {
             PointerEventData pointer = new PointerEventData(EventSystem.current) { position = Input.mousePosition };

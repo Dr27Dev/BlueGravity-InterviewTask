@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CharacterStats : MonoBehaviour
 {
-    public int Coins;
+    public int Coins = 300;
     [SerializeField] private TextMeshProUGUI _coinsText;
     
     private void Update()

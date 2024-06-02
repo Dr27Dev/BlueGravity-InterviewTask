@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5729274180522642589}
   - component: {fileID: 4570753658098990702}
   - component: {fileID: 7986182674828250615}
+  - component: {fileID: 9150857479830395284}
   m_Layer: 5
   m_Name: Item
   m_TagString: Untagged
@@ -58,7 +59,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -89,5 +90,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ItemInfo: {fileID: 11400000, guid: c61b78ed0f5ebec4bafa5b57f61fa42d, type: 2}
-  ParentAfterDrag: {fileID: 0}
   _image: {fileID: 4570753658098990702}
+  ParentAfterDrag: {fileID: 0}
+  ParentBeforeDrag: {fileID: 0}
+--- !u!114 &9150857479830395284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8294041389558988830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74d8cbad959bbe34689ebbd3b4e7395a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OriginSlot: 0
+  DestinationSlot: 0

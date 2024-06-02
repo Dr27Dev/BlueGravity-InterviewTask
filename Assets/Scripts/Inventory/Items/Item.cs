@@ -6,18 +6,14 @@ using UnityEngine.UI;
 public class Item : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
     public ItemInfo ItemInfo;
+    private Image _image;
     
-    [SerializeField] private Image _image;
-    private Transform _parentAfterDrag;
-    private Transform _parentBeforeDrag;
-    public Transform ParentAfterDrag
-    {
-        get => _parentAfterDrag;
-        set => _parentAfterDrag = value;
-    }
+    [HideInInspector] public Transform ParentAfterDrag;
+    [HideInInspector] public Transform ParentBeforeDrag;
 
     private void Awake()
     {
+        _image = GetComponent<Image>();
         _image.sprite = ItemInfo.Sprite;
         _image.material = ItemInfo.Material;
     }
@@ -25,8 +21,8 @@ public class Item : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
     public void OnBeginDrag(PointerEventData eventData) // Item picked
     {
         ItemInfoBox.Instance.IsDraggingItem = true;
-        _parentBeforeDrag = transform.parent;
-        _parentAfterDrag = transform.parent;
+        ParentBeforeDrag = transform.parent;
+        ParentAfterDrag = transform.parent;
         transform.SetParent(transform.root);
         transform.SetAsLastSibling();
         _image.raycastTarget = false;
@@ -40,9 +36,9 @@ public class Item : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
     public void OnEndDrag(PointerEventData eventData) // Item dropped
     {
         ItemInfoBox.Instance.IsDraggingItem = false;
-        transform.SetParent(_parentAfterDrag);
+        transform.SetParent(ParentAfterDrag);
         _image.raycastTarget = true;
-        if (_parentAfterDrag == _parentBeforeDrag) OnDropFailed();
+        if (ParentAfterDrag == ParentBeforeDrag) OnDropFailed();
     }
 
     private void OnDropFailed() // This is used when item was not unequipped correctly

@@ -2,17 +2,12 @@ using UnityEngine;
 
 public class CharacterEquipment : MonoBehaviour
 {
-    public static CharacterEquipment Instance;
-    
     [SerializeField] private GameObject _hat;
     [SerializeField] private GameObject _underwear;
     [SerializeField] private GameObject _clothes;
 
     private void Awake()
     {
-        if (Instance == null) Instance = this;
-        else Destroy(gameObject);
-        
         _hat.SetActive(false);
         _underwear.SetActive(false);
         _clothes.SetActive(false);
