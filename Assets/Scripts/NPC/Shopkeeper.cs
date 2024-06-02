@@ -13,7 +13,6 @@ public class Shopkeeper : MonoBehaviour
     private void Start()
     {
         PlayerController.Instance.Input.Input_Interact += Interact;
-        _shopInventory.SetActive(false);
         _shopOpen = false;
         DOTween.Play("ResetOpenShopHint");
         DOTween.Play("ResetDialogue");
@@ -26,8 +25,8 @@ public class Shopkeeper : MonoBehaviour
         if (_playerOnInteractRange)
         {
             _shopOpen = !_shopOpen;
-            _shopInventory.SetActive(_shopOpen);
-            PlayerController.Instance.Inventory.SetActive(_shopOpen);
+            OpenShopInventory(_shopOpen);
+            PlayerController.Instance.OpenInventory(_shopOpen);
             SwitchHint(!_shopOpen);
         }
     }
@@ -43,10 +42,20 @@ public class Shopkeeper : MonoBehaviour
     {
         if (!_hintHidden) SwitchHint(false);
         if (_dialogueHidden) SwitchDialogue(true);
-        _shopInventory.SetActive(false);
         _playerOnInteractRange = false;
         _shopOpen = false;
-        PlayerController.Instance.Inventory.SetActive(false);
+        PlayerController.Instance.OpenInventory(false);
+        OpenShopInventory(false);
+    }
+    
+    private void OpenShopInventory(bool open)
+    {
+        if (open)
+        {
+            DOTween.Restart("OpenShopInventory");
+            DOTween.Play("OpenShopInventory");
+        }
+        else DOTween.PlayBackwards("OpenShopInventory");
     }
 
     private void SwitchHint(bool show)

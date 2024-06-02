@@ -1,4 +1,4 @@
-using System;
+using DG.Tweening;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
     public CharacterEquipment Equipment;
     public CharacterStats Stats;
     
-    public GameObject Inventory;
+    private bool _inventoryOpen;
     
     private void Awake()
     {
@@ -19,17 +19,19 @@ public class PlayerController : MonoBehaviour
         Equipment = GetComponent<CharacterEquipment>();
         Stats = GetComponent<CharacterStats>();
         Input = GetComponent<CharacterInput>();
-        
-        Inventory.SetActive(false);
     }
 
-    private void Start()
-    {
-        Input.Input_Interact += ToggleInventory;
-    }
+    private void Start() => Input.Input_Interact += ToggleInventory;
+    private void ToggleInventory() => OpenInventory(!_inventoryOpen);
 
-    private void ToggleInventory()
+    public void OpenInventory(bool open)
     {
-        Inventory.SetActive(!Inventory.activeSelf);
+        _inventoryOpen = open;
+        if (open)
+        {
+            DOTween.Restart("OpenInventory");
+            DOTween.Play("OpenInventory");
+        }
+        else DOTween.PlayBackwards("OpenInventory");
     }
 }
